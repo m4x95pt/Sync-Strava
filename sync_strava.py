@@ -163,7 +163,7 @@ def create_notion_entry(activity):
     link = f"https://www.strava.com/activities/{activity_id}"
 
     body = {
-        "parent": {"database_id": "d81e0ca8455944eea8606190c31cb75b"},
+        "parent": {"database_id": d81e0ca8455944eea8606190c31cb75b},
         "properties": {
             "Name":               {"title": [{"text": {"content": nome}}]},
             "Tipo":               {"select": {"name": tipo}},
