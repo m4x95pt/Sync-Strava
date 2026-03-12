@@ -3,7 +3,7 @@ name: Sync Strava → Notion
 on:
   schedule:
     # Corre todos os dias às 07h30 hora de Lisboa
-    - cron: '0 10 * * *'
+    - cron: '30 6 * * *'
   workflow_dispatch:
 
 jobs:
